@@ -1,5 +1,5 @@
-var ROOT_PATH =
-  'http://127.0.0.1:5501';
+var ROOT_PATH ='https://cdn.jsdelivr.net/gh/YIntel12138/jscdn@master/js/echarts/';
+  
   
 var chartDom = document.getElementById('time-line');
 var myChart = echarts.init(chartDom);
