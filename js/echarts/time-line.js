@@ -6,7 +6,7 @@ var myChart = echarts.init(chartDom);
 var option;
 
 $.get(
-  ROOT_PATH + '/static/js/echarts/data/time-line.json',
+  ROOT_PATH + 'data/time-line.json',
   function (_rawData) {
     run(_rawData);
   }
